@@ -13,7 +13,7 @@ Data-boy (short DB) is a service that exposes a REST-with-JSON API that allows:
 
 Assume that you have a service that collects some calendar events. You want to store those events and retrieve them later. You have data-boy running on port 8000. All the paths below are custom and they don't mean anything (you can make up the paths as you want).
 
-```json
+```text
 PUT /calendar/today
 Content-Type: application/json
 
